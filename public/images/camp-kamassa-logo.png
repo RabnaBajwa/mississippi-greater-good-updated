@@ -1,0 +1,304 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Stitch Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f5f1f0] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#181311]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 6H42L36 24L42 42H6L12 24L6 6Z" fill="currentColor"></path></svg>
+            </div>
+            <h2 class="text-[#181311] text-lg font-bold leading-tight tracking-[-0.015em]">Greater Good MS</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#181311] text-sm font-medium leading-normal" href="#">About</a>
+              <a class="text-[#181311] text-sm font-medium leading-normal" href="#">Tax Credits</a>
+              <a class="text-[#181311] text-sm font-medium leading-normal" href="#">How to Donate</a>
+              <a class="text-[#181311] text-sm font-medium leading-normal" href="#">Contact</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#f46a25] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Donate Now</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:p-4">
+                <div
+                  class="flex min-h-[480px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 @[480px]:rounded-xl items-center justify-center p-4"
+                  style='background-image: linear-gradient(rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB3O6qd8Y1E_173gXgV5w6A67lnqQoPuPSNUi-QaJjo45NJqrhpecSiwoD4eesRPUZ6y47atFsYWcQrqfBFOyMJovqi8kmL7677gqNSmdZ-QbVMhe9vHkdPNRvsyCs3NX6IuH6AQMuZPotJzV63PQUlNrAH9EKCnooDAmjNjj_JtXvACxf3WgpyDzJaSOw2RFwmR4C1DLbVo_p1AliqCya-hgDSVPFrSWaAeftqzbP6sMJwKHoWz7W_FhruBt9-96Dbd3wzKG_ePsoL");'
+                >
+                  <div class="flex flex-col gap-2 text-center">
+                    <h1
+                      class="text-white text-4xl font-black leading-tight tracking-[-0.033em] @[480px]:text-5xl @[480px]:font-black @[480px]:leading-tight @[480px]:tracking-[-0.033em]"
+                    >
+                      Redirecting taxes into community support in Mississippi
+                    </h1>
+                    <h2 class="text-white text-sm font-normal leading-normal @[480px]:text-base @[480px]:font-normal @[480px]:leading-normal">
+                      Greater Good MS empowers individuals and businesses to channel their Mississippi tax contributions towards impactful nonprofits. By participating, you
+                      directly support causes you care about while benefiting from valuable tax credits.
+                    </h2>
+                  </div>
+                  <button
+                    class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 @[480px]:h-12 @[480px]:px-5 bg-[#f46a25] text-white text-sm font-bold leading-normal tracking-[0.015em] @[480px]:text-base @[480px]:font-bold @[480px]:leading-normal @[480px]:tracking-[0.015em]"
+                  >
+                    <span class="truncate">Learn More</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#181311] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Our Impactful Partners</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCRR02OB1v81P1qYTBgl6iAlgpQIIKQjcMr5oa12_brj3YDXTG_Q6stnCcWUKgKDpYjBBneue_grEdwjU-zuMYNx8XiR8RSsc6V3KAIqXkcVMVe3SoPKkppdhM80N2bebw6SPWL96X_3zBPxVJT87Vf8aSBCvejXljoHfmu1n31dUTx3QxyHC-R8WpOvIyDvFaYN_ykxGWXlvTn-e10j7cphQUl_wcBlTQMUClG5GKQtqsduuQWLGCIb3R-F-kt6rucr-yXP8TnYwkz");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBlQFNDEz8gj6uXpyeUxsGigZBGctNBCrqBY-CsbimrbrCEAryStvzhVnhhQPImFaR9ENe_tJFl_D213F7fTQr9xcBKW5au9yQjXCTLgtWN-eq_28VYKqWi8N0OE3FkcYcY7zR-Wzc8dv6xMsKP4rdNH4zPWpjHcP3a8JkUXnd80kfHuMCaAqEyHF8H1mJzOMmKBTOKB3GvoEe7pG7Xki-Mybl31PJhs2SB3ZvtWLpj3hZDnSCY66ASkfSkUan5q-gMMQRJ9GwpYehV");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCeqylqfBj5Fs1VZ-OcLdO-5AveBH9U8s-utF4azZi2EpG2ZGruCc1dmuaZ0g8jugcvWPxxwY-adoEHlNQZyea32HNe-87scY5UJpyPEhpYChsN0gomDpFa_ZX_oXMy9wNCsppquQQ96kNCV079EAqyvzNr3-5Wzn4MtW6b4Ez4YhisclOCBgfukpxVyqdTxW_pjZ5uthGd5X7frisT2qUQOUQ4FMHGJkyaR3rBhBQdUkqYzdGsFZCTbl4tzu2GlaC55k0TyEoxoPTz");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCNBK_EiSHU95oCMXFaT1xiXO4nFhDmH1vX0jLMbrM8bjfE4PULf09iF_IbRv_wARWFQJjahRF73iC0MzbNfY88DBFIuZsdu9cEOIB-k83s_PL_Dk5vKha9n-gqwpo4K7qGdA3zbRmEVcv_Fr0uNRtlnFyQjOeMfyWUDqKnfUb4r21tNupIKK_q_lq32Olt2Xx7888i9mqlKp1nxh_8OTQrHomhZRBDbQpkcuH0Lx_L9ps1X0uU7TMY3QVO0_s1LNKbZ4bTjfv0b9zR");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAsoiUBQiIpABe8nOyfKYslQHS7Y9Z5LFe90wzWZStOvhif9GOT1oLRWd7T4IkPxLZzYL94DOnl7PnHtPjRqj8abkeM72ur4uBBpaAFFyOThCUer5Wr1J6eobiAAEcJG_Gdsyxz0nJpqnRZpYdj2amt930ChXwjfOqOWYMgza_SCsVDoUZ3O_Eho21Yl7MEMH-YYIwc7ouZ3xsuzHZQwEQ7MqBQfJKNfCuy2eou43NOuPYAADLSuIu28mnR6t8DDg7dQWZvH_b481mI");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuASCNFh4_3VFHPgdpPd2218iT4yGlB4v4z5MNLVy7ko7wVw4IItaX-nUHy7ihOVJtlNLC6kPoe43Y-IJcD9tu7nGuEJM3mb6-1YWte3etKKVeGelrbCPWgN4XJXuLfldOv2UtfaZhmSn6L3NXSFq3pKqvhFou0l0hkeD1DiAWFomExT09upFpqvvv-1hqiY8YkjX_CcHvfWCbeCePJMwhQRonFfUiKlDi1wyV8WsnJFr5O2Ypv0UAAETkg4RFtZG65zwydZp-ndM5GA");'
+                ></div>
+              </div>
+              <div class="flex flex-col gap-3">
+                <div
+                  class="w-full bg-center bg-no-repeat aspect-square bg-cover rounded-xl"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuApn07IImYG9-jJ4NxOjFLkQ6gnVmkx2AmKzJMPFbKMapxs3Osfh-eNyvkaIs_N1snVc68RIFnTrGgTbl5Tswtl7NXDnlaV0YEQf-6ACqW06bmdRHugapq7UzUcILa9-piM9oZNbz1YGr7bzlXRqojyYQJs2hKdBEOO0dgT9SQ7IDbe07AqbkYPvdWazw9chzgR9oHdQNWTqI1UcvlwqwQUHTYGOaody1f3dA50iGmDA19scxE2MTbbk9Sm4O_3sy2mnWHr7aHFJHlk");'
+                ></div>
+              </div>
+            </div>
+            <h2 class="text-[#181311] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Mississippi Tax Credits: A Win-Win</h2>
+            <div class="pb-3">
+              <div class="flex border-b border-[#e6dfdb] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#181311] text-[#181311] pb-[13px] pt-4" href="#">
+                  <p class="text-[#181311] text-sm font-bold leading-normal tracking-[0.015em]">Individual Taxes</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#8a6e60] pb-[13px] pt-4" href="#">
+                  <p class="text-[#8a6e60] text-sm font-bold leading-normal tracking-[0.015em]">Business Taxes</p>
+                </a>
+              </div>
+            </div>
+            <div class="p-4 grid grid-cols-[20%_1fr] gap-x-6">
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#e6dfdb] py-5">
+                <p class="text-[#8a6e60] text-sm font-normal leading-normal">QCO</p>
+                <p class="text-[#181311] text-sm font-normal leading-normal">
+                  Qualified Charitable Organization Credit: Supports organizations providing services to low-income individuals and families.
+                </p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#e6dfdb] py-5">
+                <p class="text-[#8a6e60] text-sm font-normal leading-normal">QFCCO</p>
+                <p class="text-[#181311] text-sm font-normal leading-normal">
+                  Qualified Foster Care Charitable Organization Credit: Supports organizations providing services to foster children and families.
+                </p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#e6dfdb] py-5">
+                <p class="text-[#8a6e60] text-sm font-normal leading-normal">ETHO</p>
+                <p class="text-[#181311] text-sm font-normal leading-normal">Educational Tax Home Organization Credit: Supports organizations providing educational services.</p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#e6dfdb] py-5">
+                <p class="text-[#8a6e60] text-sm font-normal leading-normal">ECO</p>
+                <p class="text-[#181311] text-sm font-normal leading-normal">
+                  Environmental Charitable Organization Credit: Supports organizations focused on environmental conservation and sustainability.
+                </p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#e6dfdb] py-5">
+                <p class="text-[#8a6e60] text-sm font-normal leading-normal">PRCO</p>
+                <p class="text-[#181311] text-sm font-normal leading-normal">
+                  Poverty Reduction Charitable Organization Credit: Supports organizations working to reduce poverty in Mississippi.
+                </p>
+              </div>
+              <div class="col-span-2 grid grid-cols-subgrid border-t border-t-[#e6dfdb] py-5">
+                <p class="text-[#8a6e60] text-sm font-normal leading-normal">ESCO</p>
+                <p class="text-[#181311] text-sm font-normal leading-normal">
+                  Economic Security Charitable Organization Credit: Supports organizations providing economic security services.
+                </p>
+              </div>
+            </div>
+            <p class="text-[#181311] text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Redirect up to 50% of your Mississippi tax liability through these credits, depending on the program and your tax situation. Consult a tax advisor to explore your
+              eligibility and potential benefits.
+            </p>
+            <h2 class="text-[#181311] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Simple Steps to Make a Difference</h2>
+            <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
+              <div class="flex flex-col items-center gap-1 pt-3">
+                <div class="text-[#181311]" data-icon="HandWaving" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M220.2,100l-18-31.18a28,28,0,0,0-47.3-1.92L139.56,40.31a28,28,0,0,0-48.12-.63,28,28,0,0,0-43,34.78l3.34,5.79a28,28,0,0,0-22,41.92l38,65.82a87.46,87.46,0,0,0,53.43,41,88.56,88.56,0,0,0,22.92,3A88,88,0,0,0,220.2,100Zm-6.67,62.63A72,72,0,0,1,81.63,180l-38-65.82a12,12,0,0,1,20.79-12l22,38.1a8,8,0,1,0,13.85-8l-38-65.81a12,12,0,0,1,13.5-17.59,11.9,11.9,0,0,1,7.29,5.59l34,58.89a8,8,0,0,0,13.85-8l-26-45h0a12,12,0,0,1,20.78-12L160,107.78a48.08,48.08,0,0,0-11,61,8,8,0,0,0,13.86-8,32,32,0,0,1,11.71-43.71,8,8,0,0,0,2.93-10.93l-10-17.32a12,12,0,0,1,20.78-12l18,31.18A71.49,71.49,0,0,1,213.53,162.62ZM184.27,29.93a8,8,0,0,1,9.8-5.66c15.91,4.27,29,14.11,36.86,27.73a8,8,0,0,1-13.86,8c-5.72-9.92-15.36-17.12-27.14-20.27A8,8,0,0,1,184.27,29.93ZM80.91,237a8,8,0,0,1-11.24,1.33c-11-8.69-20.11-19.58-28.6-34.28a8,8,0,0,1,13.86-8c7.44,12.88,15.27,22.32,24.65,29.72A8,8,0,0,1,80.91,237Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#181311] text-base font-medium leading-normal">Choose a Participating Nonprofit</p>
+                <p class="text-[#8a6e60] text-base font-normal leading-normal">Select a nonprofit from our partner list that aligns with your philanthropic goals.</p>
+              </div>
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2"></div>
+                <div class="text-[#181311]" data-icon="Calculator" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M80,120h96a8,8,0,0,0,8-8V64a8,8,0,0,0-8-8H80a8,8,0,0,0-8,8v48A8,8,0,0,0,80,120Zm8-48h80v32H88ZM200,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24Zm0,192H56V40H200ZM100,148a12,12,0,1,1-12-12A12,12,0,0,1,100,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,148Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,148Zm-80,40a12,12,0,1,1-12-12A12,12,0,0,1,100,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,140,188Zm40,0a12,12,0,1,1-12-12A12,12,0,0,1,180,188Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#181311] text-base font-medium leading-normal">Determine Your Tax Liability</p>
+                <p class="text-[#8a6e60] text-base font-normal leading-normal">Calculate your estimated Mississippi tax liability for the current year.</p>
+              </div>
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2"></div>
+                <div class="text-[#181311]" data-icon="File" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#181311] text-base font-medium leading-normal">Complete the Donation Form</p>
+                <p class="text-[#8a6e60] text-base font-normal leading-normal">Fill out the donation form provided by Greater Good MS, specifying your donation amount.</p>
+              </div>
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2"></div>
+                <div class="text-[#181311]" data-icon="Paperclip" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M209.66,122.34a8,8,0,0,1,0,11.32l-82.05,82a56,56,0,0,1-79.2-79.21L147.67,35.73a40,40,0,1,1,56.61,56.55L105,193A24,24,0,1,1,71,159L154.3,74.38A8,8,0,1,1,165.7,85.6L82.39,170.31a8,8,0,1,0,11.27,11.36L192.93,81A24,24,0,1,0,159,47L59.76,147.68a40,40,0,1,0,56.53,56.62l82.06-82A8,8,0,0,1,209.66,122.34Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#181311] text-base font-medium leading-normal">Submit the Form and Payment</p>
+                <p class="text-[#8a6e60] text-base font-normal leading-normal">Submit the completed form and your donation payment to Greater Good MS.</p>
+              </div>
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2"></div>
+                <div class="text-[#181311]" data-icon="Certificate" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M248,128a56,56,0,1,0-96,39.14V224a8,8,0,0,0,11.58,7.16L192,216.94l28.42,14.22A8,8,0,0,0,232,224V167.14A55.81,55.81,0,0,0,248,128ZM192,88a40,40,0,1,1-40,40A40,40,0,0,1,192,88Zm3.58,112.84a8,8,0,0,0-7.16,0L168,211.06V178.59a55.94,55.94,0,0,0,48,0v32.47ZM136,192a8,8,0,0,1-8,8H40a16,16,0,0,1-16-16V56A16,16,0,0,1,40,40H216a16,16,0,0,1,16,16,8,8,0,0,1-16,0H40V184h88A8,8,0,0,1,136,192Zm-16-56a8,8,0,0,1-8,8H72a8,8,0,0,1,0-16h40A8,8,0,0,1,120,136Zm0-32a8,8,0,0,1-8,8H72a8,8,0,0,1,0-16h40A8,8,0,0,1,120,104Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#181311] text-base font-medium leading-normal">Receive Your Tax Credit Certificate</p>
+                <p class="text-[#8a6e60] text-base font-normal leading-normal">Upon processing, receive a tax credit certificate for the donated amount.</p>
+              </div>
+              <div class="flex flex-col items-center gap-1 pb-3">
+                <div class="w-[1.5px] bg-[#e6dfdb] h-2"></div>
+                <div class="text-[#181311]" data-icon="File" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex flex-1 flex-col py-3">
+                <p class="text-[#181311] text-base font-medium leading-normal">File Your Taxes</p>
+                <p class="text-[#8a6e60] text-base font-normal leading-normal">
+                  Include the tax credit certificate when filing your Mississippi state income tax return to claim the credit.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="flex justify-center">
+          <div class="flex max-w-[960px] flex-1 flex-col">
+            <p class="text-[#8a6e60] text-sm font-normal leading-normal pb-3 pt-1 px-4">
+              Contact Information: Eleanor Harper, Director of Donor Relations | 601-938-3253 | eleanor.harper@greatergoodms.com
+            </p>
+            <footer class="flex flex-col gap-6 px-5 py-10 text-center @container">
+              <div class="flex flex-wrap items-center justify-center gap-6 @[480px]:flex-row @[480px]:justify-around">
+                <a class="text-[#8a6e60] text-base font-normal leading-normal min-w-40" href="#">Privacy Policy</a>
+                <a class="text-[#8a6e60] text-base font-normal leading-normal min-w-40" href="#">Terms of Service</a>
+              </div>
+              <div class="flex flex-wrap justify-center gap-4">
+                <a href="#">
+                  <div class="text-[#8a6e60]" data-icon="TwitterLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M247.39,68.94A8,8,0,0,0,240,64H209.57A48.66,48.66,0,0,0,168.1,40a46.91,46.91,0,0,0-33.75,13.7A47.9,47.9,0,0,0,120,88v6.09C79.74,83.47,46.81,50.72,46.46,50.37a8,8,0,0,0-13.65,4.92c-4.31,47.79,9.57,79.77,22,98.18a110.93,110.93,0,0,0,21.88,24.2c-15.23,17.53-39.21,26.74-39.47,26.84a8,8,0,0,0-3.85,11.93c.75,1.12,3.75,5.05,11.08,8.72C53.51,229.7,65.48,232,80,232c70.67,0,129.72-54.42,135.75-124.44l29.91-29.9A8,8,0,0,0,247.39,68.94Zm-45,29.41a8,8,0,0,0-2.32,5.14C196,166.58,143.28,216,80,216c-10.56,0-18-1.4-23.22-3.08,11.51-6.25,27.56-17,37.88-32.48A8,8,0,0,0,92,169.08c-.47-.27-43.91-26.34-44-96,16,13,45.25,33.17,78.67,38.79A8,8,0,0,0,136,104V88a32,32,0,0,1,9.6-22.92A30.94,30.94,0,0,1,167.9,56c12.66.16,24.49,7.88,29.44,19.21A8,8,0,0,0,204.67,80h16Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#8a6e60]" data-icon="FacebookLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm8,191.63V152h24a8,8,0,0,0,0-16H136V112a16,16,0,0,1,16-16h16a8,8,0,0,0,0-16H152a32,32,0,0,0-32,32v24H96a8,8,0,0,0,0,16h24v63.63a88,88,0,1,1,16,0Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="text-[#8a6e60]" data-icon="InstagramLogo" data-size="24px" data-weight="regular">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                      <path
+                        d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <p class="text-[#8a6e60] text-base font-normal leading-normal">© 2023 Greater Good MS. All rights reserved.</p>
+            </footer>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
